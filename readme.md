@@ -39,7 +39,9 @@ Install one copy of the STS you want, copy part of the installation out to a com
 
 1. Install a full STS kit once.
 1. Locate the Default.profile inside that installation, looks something like
+ 
  - file:/G:/Programs/sts-4.1.0.RELEASE/configuration/../p2/org.eclipse.equinox.p2.engine/profileRegistry/DefaultProfile.profile
+ 
 1. Copy the full contents from back at the /p2/ node to a common location your team can reach from a 'file:/' qualifier
 1. Use the Eclipse Installer, in Advanced Mode, giving this STS.setup as a user product
-1. On the prompt for variables, in for sts-repo-?, give the common path to the p2 Default.profile you created above
+1. On the prompt for variables, in field for sts-repo-?, give the common path to the p2 Default.profile you created above
