@@ -167,7 +167,7 @@
         xsi:type="setup:VariableTask"
         id="sts-repo-4.0.2"
         name="sts-repo-4.0.2"/>
-    <description>The self product version</description>
+    <description>STS 4.0.2 requirements</description>
   </version>
   <version name="4.1.0-RELEASE"
       label="4.1.0.201812201400-RELEASE">
@@ -321,7 +321,170 @@
         xsi:type="setup:VariableTask"
         id="sts-repo-4.1.0"
         name="sts-repo-4.1.0"/>
-    <description>The self product version</description>
+    <description>STS 4.1.0 requirements</description>
+  </version>
+  <version name="version"
+      label="4.1.1.201901241133-RELEASE">
+    <annotation
+        source="http://www.eclipse.org/oomph/setup/BrandingInfo">
+      <detail
+          key="folderName">
+        <value>sts-4.1.1.RELEASE</value>
+      </detail>
+    </annotation>
+    <setupTask
+        xsi:type="setup.p2:P2Task">
+      <requirement
+          name="org.springframework.boot.ide.branding.sts4"
+          versionRange="[4.1.0,4.2.0)"/>
+      <requirement
+          name="org.springframework.tooling.concourse.ls.feature.feature.group"
+          versionRange="[4.1.0,4.2.0)"/>
+      <requirement
+          name="org.eclipse.buildship.feature.group"
+          versionRange="[3.0.0,3.1.0)"/>
+      <requirement
+          name="org.sonatype.m2e.egit.feature.feature.group"
+          versionRange="[0.15.0,0.16.0)"/>
+      <requirement
+          name="org.eclipse.jgit.feature.group"
+          versionRange="[5.2.0,5.3.0)"/>
+      <requirement
+          name="org.jboss.tools.maven.apt.feature.feature.group"
+          versionRange="[1.5.0,1.6.0)"/>
+      <requirement
+          name="org.eclipse.jgit.lfs.feature.group"
+          versionRange="[5.2.0,5.3.0)"/>
+      <requirement
+          name="org.eclipse.oomph.setup.sdk.feature.group"
+          versionRange="[1.11.0,1.12.0)"/>
+      <requirement
+          name="org.springframework.tooling.bosh.ls.feature.feature.group"
+          versionRange="[4.1.0,4.2.0)"/>
+      <requirement
+          name="org.springframework.ide.eclipse.boot.dash.feature.feature.group"
+          versionRange="[3.9.0,3.10.0)"/>
+      <requirement
+          name="org.eclipse.help.feature.group"
+          versionRange="[2.2.0,2.3.0)"/>
+      <requirement
+          name="org.eclipse.pde.feature.group"
+          versionRange="[3.13.0,3.14.0)"/>
+      <requirement
+          name="org.eclipse.oomph.preferences.feature.group"
+          versionRange="[1.10.0,1.11.0)"/>
+      <requirement
+          name="org.springsource.ide.eclipse.commons.quicksearch.feature.feature.group"
+          versionRange="[3.9.0,3.10.0)"/>
+      <requirement
+          name="org.springframework.boot.ide.main.feature.feature.group"
+          versionRange="[4.1.0,4.2.0)"/>
+      <requirement
+          name="org.springframework.tooling.cloudfoundry.manifest.ls.integration.feature.feature.group"
+          versionRange="[4.1.0,4.2.0)"/>
+      <requirement
+          name="org.eclipse.equinox.p2.user.ui.feature.group"
+          versionRange="[2.4.0,2.5.0)"/>
+      <requirement
+          name="org.eclipse.wst.xml_ui.feature.feature.group"
+          versionRange="[3.12.0,3.13.0)"/>
+      <requirement
+          name="org.eclipse.wst.jsdt.chromium.debug.feature.feature.group"
+          versionRange="[0.6.0,0.7.0)"/>
+      <requirement
+          name="net.mihai-nita.ansicon.feature.group"
+          versionRange="[1.3.0,1.4.0)"/>
+      <requirement
+          name="org.eclipse.wst.jsdt.feature.feature.group"
+          versionRange="[2.1.0,2.2.0)"/>
+      <requirement
+          name="org.eclipse.jst.server_adapters.ext.feature.feature.group"
+          versionRange="[3.3.0,3.4.0)"/>
+      <requirement
+          name="org.eclipse.egit.feature.group"
+          versionRange="[5.2.0,5.3.0)"/>
+      <requirement
+          name="org.eclipse.m2e.logback.feature.feature.group"
+          versionRange="[1.10.0,1.11.0)"/>
+      <requirement
+          name="org.eclipse.jdt.feature.group"
+          versionRange="[3.16.0,3.17.0)"/>
+      <requirement
+          name="org.eclipse.oomph.workingsets.feature.group"
+          versionRange="[1.10.0,1.11.0)"/>
+      <requirement
+          name="org.eclipse.m2e.wtp.feature.feature.group"
+          versionRange="[1.4.0,1.5.0)"/>
+      <requirement
+          name="org.eclipse.oomph.projectconfig.feature.group"
+          versionRange="[1.10.0,1.11.0)"/>
+      <requirement
+          name="com.ianbrandt.tools.m2e.mdp.feature.feature.group"
+          versionRange="[0.0.0,0.1.0)"/>
+      <requirement
+          name="org.eclipse.m2e.wtp.jsf.feature.feature.group"
+          versionRange="[1.4.0,1.5.0)"/>
+      <requirement
+          name="org.springframework.tooling.boot.ls.feature.feature.group"
+          versionRange="[4.1.0,4.2.0)"/>
+      <requirement
+          name="org.eclipse.tm.terminal.feature.feature.group"
+          versionRange="[4.5.0,4.6.0)"/>
+      <requirement
+          name="org.sonatype.m2e.buildhelper.feature.feature.group"
+          versionRange="[0.15.0,0.16.0)"/>
+      <requirement
+          name="org.sonatype.m2e.mavenarchiver.feature.feature.group"
+          versionRange="[0.17.0,0.18.0)"/>
+      <requirement
+          name="org.eclipse.m2e.feature.feature.group"
+          versionRange="[1.10.0,1.11.0)"/>
+      <requirement
+          name="org.eclipse.wst.json_ui.feature.feature.group"
+          versionRange="[1.1.0,1.2.0)"/>
+      <requirement
+          name="org.jboss.tools.m2e.wro4j.feature.feature.group"
+          versionRange="[1.1.0,1.2.0)"/>
+      <requirement
+          name="org.eclipse.m2e.wtp.jaxrs.feature.feature.group"
+          versionRange="[1.4.0,1.5.0)"/>
+      <requirement
+          name="org.eclipse.egit.gitflow.feature.feature.group"
+          versionRange="[5.2.0,5.3.0)"/>
+      <requirement
+          name="org.eclipse.oomph.version.feature.group"
+          versionRange="[1.10.0,1.11.0)"/>
+      <requirement
+          name="org.eclipse.jst.server_adapters.feature.feature.group"
+          versionRange="[3.2.0,3.3.0)"/>
+      <requirement
+          name="org.eclipse.epp.mpc.feature.group"
+          versionRange="[1.7.0,1.8.0)"/>
+      <requirement
+          name="org.springframework.tooling.cloudfoundry.manifest.ls.feature.feature.group"
+          versionRange="[4.1.0,4.2.0)"/>
+      <requirement
+          name="org.eclipse.oomph.targlets.feature.group"
+          versionRange="[1.11.0,1.12.0)"/>
+      <requirement
+          name="org.eclipse.wst.web_ui.feature.feature.group"
+          versionRange="[3.11.0,3.12.0)"/>
+      <repository
+          url="http://download.springsource.com/release/TOOLS/sts4-language-server-integrations"/>
+      <repository
+          url="http://download.springsource.com/release/TOOLS/sts4-language-servers/e4.8"/>
+      <repository
+          url="http://download.springsource.com/release/TOOLS/sts4/update/latest"/>
+      <repository
+          url="http://download.eclipse.org/releases/2018-12"/>
+      <repository
+          url="${sts-repo-4.1.1}"/>
+    </setupTask>
+    <setupTask
+        xsi:type="setup:VariableTask"
+        id="sts-repo-4.1.1"
+        name="sts-repo-4.1.1"/>
+    <description>STS 4.1.1 requirements</description>
   </version>
   <description>STS tracks various STS releases for local customization in oomph</description>
 </setup:Product>
