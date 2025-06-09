@@ -25,6 +25,7 @@ Human tracked, there will be some lag in this project after an update of STS.
 1. Add an Oomph product setup file to new project
 1. Copy the STS version node, the grand-child of \<Self Products\>, into to the new product setup, as child of top node.  This copy can be done from single window mode, but may be easier the first few times as drag and drop in multi-window mode
 1. Edit the properties of the copied node, to have a name of 'x.y.z-RELEASE', instead of 'version' 
+1. Add an attribute for `requiredJavaVersion="21"` to the `<version>` element of the copied node
 1. Remove download locations from P2 Director that reference a specifically numbered nightly build location.  At eclipse.org these age out quickly.
 1. Test an installation using the Eclipse Installer, pointing at the new setup 
 
